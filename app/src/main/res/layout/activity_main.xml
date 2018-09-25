@@ -18,7 +18,8 @@
         android:text="Scan Barcode"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="onScanCodeClick"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -63,5 +64,6 @@
         android:text="Take Product Picture"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="onTakePictureClick"/>
 </android.support.constraint.ConstraintLayout>
